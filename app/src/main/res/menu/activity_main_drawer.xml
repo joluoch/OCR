@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/task_viewer"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Task Viewer" />
+        <item
+            android:id="@+id/map_viewer"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Map Viewer" />
+        <item
+            android:id="@+id/reports"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Reports" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

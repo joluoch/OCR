@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_list_view_tutorial_with_example"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="7dp">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="80dp"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="John Doe"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/platee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="KCB663H"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nationalid"
+            android:layout_width="wrap_content"
+            android:hint="3664756"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/telno"
+            android:layout_width="wrap_content"
+            android:hint="0712345678"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="80dp"
+        android:padding="7dp">
+
+
+
+
+        <TextView
+            android:id="@+id/carmodel"
+            android:layout_width="wrap_content"
+            android:hint="@string/car"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/parkingtype"
+            android:layout_width="wrap_content"
+            android:hint="@string/type"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+

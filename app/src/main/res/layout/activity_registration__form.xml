@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.activities.registration_Form"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0b0b0b" />
+
+
+            <EditText
+                android:id="@+id/editText_National_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="@string/national_id"
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="16dp"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0b0b0b" />
+
+
+
+            <EditText
+                android:id="@+id/editText_Telephone_Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/transparent"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="@string/telephone_number"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:padding="16dp"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0b0b0b" />
+            <EditText
+                android:id="@+id/editNP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="@string/number_platee"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0b0b0b" />
+            <EditText
+                android:id="@+id/editMD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="@string/model"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0b0b0b" />
+            <EditText
+                android:id="@+id/editDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="@string/date"
+                android:inputType="date"
+                android:padding="12dp"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#0b0b0b" />
+
+
+
+            <CheckBox
+                android:id="@+id/checkbox_Reg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/regular"
+                android:textColor="#0a0909"
+                />
+            <CheckBox
+                android:id="@+id/checkbox_Dis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/disable"
+                android:textColor="#121111"
+                />
+            <CheckBox
+                android:id="@+id/checkbox_Moto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/motor_bike"
+                android:textColor="#151414"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e17070"
+                android:text="@string/saave"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:clickable="true"
+                android:textSize="18sp"
+                android:textColor="#161515"
+                android:padding="16dp"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_marginTop="32dp"
+                android:id="@+id/btar"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+

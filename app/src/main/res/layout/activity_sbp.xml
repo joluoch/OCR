@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <!--  <include layout="@layout/toolbar" />-->
+
+  <Button
+      android:id="@+id/btnScan"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_margin="20dp"
+      android:layout_marginTop="60dp"
+      android:background="@color/accent"
+      android:gravity="center"
+      android:paddingBottom="20dp"
+      android:paddingTop="20dp"
+      android:text="@string/scan_plate"
+      android:textColor="@color/background_accent" />
+
+  <Button
+      android:id="@+id/btnNewm"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_margin="20dp"
+      android:layout_marginTop="60dp"
+      android:background="@color/accent"
+      android:gravity="center"
+      android:paddingBottom="20dp"
+      android:paddingTop="20dp"
+      android:text="NEW MEMBER"
+      android:textColor="@color/background_accent" />
+  <Button
+      android:id="@+id/btnMember"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_margin="20dp"
+      android:layout_marginTop="60dp"
+      android:background="@color/accent"
+      android:gravity="center"
+      android:paddingBottom="20dp"
+      android:paddingTop="20dp"
+      android:text="@string/members"
+      android:textColor="@color/background_accent" />
+  <Button
+      android:id="@+id/btnLogs"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_margin="20dp"
+      android:layout_marginTop="60dp"
+      android:background="@color/accent"
+      android:gravity="center"
+      android:paddingBottom="20dp"
+      android:paddingTop="20dp"
+      android:text="@string/logs"
+      android:textColor="@color/background_accent" />
+
+  <Button
+      android:id="@+id/btnLogout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_margin="20dp"
+      android:layout_marginTop="60dp"
+      android:background="@color/accent"
+      android:gravity="center"
+      android:paddingBottom="20dp"
+      android:paddingTop="20dp"
+      android:text="@string/logout"
+      android:textColor="@color/background_accent" />
+
+
+
+</LinearLayout>
